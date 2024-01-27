@@ -1,0 +1,25 @@
+<!-- templates/start.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Olympic App</title>
+    <!-- Link to your external CSS file -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='start.css') }}"
+    />
+  </head>
+  <body class="background-container">
+    <h1>Welcome to Olympic App</h1>
+    <div class="options-container">
+      <a href="/predict">Predict</a>
+      <a href="/datasets">Datasets</a>
+      <a href="/quit">Quit</a>
+    </div>
+  </body>
+</html>

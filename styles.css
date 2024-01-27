@@ -1,0 +1,42 @@
+/* static/styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, form {
+    text-align: center;
+    color: black; /* Black text color */
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8); /* White text shadow */
+}
+
+.background-container {
+    background-image: url("Olympic1.jpg"); /* Replace with your image filename */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Add additional styling as needed */
+.background-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set text color of button to black */
+button {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* White text shadow */
+}
+
+/* Highlight class for red color */
+.highlight {
+    color: red;
+}

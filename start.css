@@ -1,0 +1,43 @@
+/* static/start.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-container {
+    background-image: url("Olympic1.jpg"); /* Update the path accordingly */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* White text color */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Black text shadow */
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a {
+    color: white; /* White text color for links */
+    text-decoration: none;
+    border-bottom: 1px solid white; /* Add an underline effect with a white line */
+    padding: 10px;
+}
+
+a:hover {
+    color: red; /* Change link color on hover to red */
+    border-bottom: 1px solid red; /* Change underline color on hover to red */
+}
